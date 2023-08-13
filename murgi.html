@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>digital tajbih</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: grid;
+        grid-template-columns: 3;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+      .card {
+        height: 300px;
+        box-shadow: 1px 1px 10px black;
+        border-radius: 10px;
+        padding: 20px 60px 60px 60px;
+      }
+      h1 {
+        font-size: 80px;
+        text-align: center;
+      }
+      button {
+        padding: 20px 40px;
+        font-size: 24px;
+        font-weight: 500;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+      }
+      .btn1 {
+        background: green;
+        margin-right: 20px;
+        color: white;
+      }
+      .btn2 {
+        background: orange;
+      }
+      .text {
+        height: 80%;
+      }
+      p {
+        font-size: 40px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="text">
+          <p>Subhanallah</p>
+          <h1 id="h1"></h1>
+        </div>
+        <div class="button">
+          <button class="btn1" onclick="make1()">Increment</button>
+          <button class="btn2" onclick="alert('you cant decrement the value')">
+            Decrement
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="text">
+          <p>Alhamdulillah</p>
+          <h1 id="h2" class="h1"></h1>
+        </div>
+        <div class="button">
+          <button class="btn1" onclick="make2()">Increment</button>
+          <button class="btn2" onclick="alert('you cant decrement the value')">
+            Decrement
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="text">
+          <p>Allahu Akbar</p>
+          <h1 id="h3"></h1>
+        </div>
+        <div class="button">
+          <button class="btn1" onclick="make3()">Increment</button>
+          <button class="btn2" onclick="alert('you cant decrement the value')">
+            Decrement
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="btn" style="margin: auto">
+      <button>Reset ALL</button>
+    </div>
+    <script src="digital.js"></script>
+  </body>
+</html>
