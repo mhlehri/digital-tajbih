@@ -3,7 +3,7 @@ const jikir2 = document.getElementById("h2");
 const jikir3 = document.getElementById("h3");
 count1 = 0;
 function make1() {
-  if (count1 < 34) {
+  if (count1 < 33) {
     count1++;
     jikir1.innerText = count1;
   }
@@ -20,7 +20,7 @@ function make2() {
 count3 = 0;
 function make3() {
   count3++;
-  if (count3 < 34) {
+  if (count3 < 33) {
     count3++;
     jikir3.innerText = count3;
   }
