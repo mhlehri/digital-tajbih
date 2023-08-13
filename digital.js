@@ -11,7 +11,6 @@ function make1() {
 
 count2 = 0;
 function make2() {
-  count2++;
   if (count2 < 34) {
     count2++;
     jikir2.innerText = count2;
@@ -19,7 +18,6 @@ function make2() {
 }
 count3 = 0;
 function make3() {
-  count3++;
   if (count3 < 33) {
     count3++;
     jikir3.innerText = count3;
